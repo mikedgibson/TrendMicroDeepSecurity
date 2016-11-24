@@ -1,3 +1,6 @@
+Version 1.5.2: April 4, 2016
+- Fixed a typo in the transforms.conf for web reputation events. Credit to Chris Bell for reporting the error.
+
 Version 1.5.1: March 28, 2016
 - Fixed an issue with "Intrusion Prevention Rule Updated" events not having their sourcetype modified.
 - Fixed an issue where in some cases a space is included immediately after "CEF:" in the syslog output from Deep Security.
