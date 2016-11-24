@@ -11,7 +11,7 @@ modtime = 1402067951.555125000
 
 [app/install/install_source_checksum]
 version = 6.2.0
-modtime = 1417902645.288528400
+modtime = 1459112599.624923100
 
 [views/deepsecurity_firewall_dashboard]
 version = 6.2.0
@@ -20,3 +20,8 @@ modtime = 1425743441.244563400
 [views/deepsecurity_ips_dashboard]
 version = 6.2.0
 modtime = 1425743515.674071800
+
+[inputs/splunktcp%3A%2F%2F9997]
+owner = admin
+version = 6.3.3
+modtime = 1459207969.876221600
