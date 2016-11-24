@@ -11,6 +11,18 @@
   </fieldset>
   <row>
     <panel>
+      <map>
+        <title>Intrusion Prevention Events by Location</title>
+        <search>
+          <query>sourcetype=deepsecurity-intrusion_prevention src!="N/A" | iplocation src | geostats count by src globallimit=0 | sort -count</query>
+          <earliest>$timeframe.earliest$</earliest>
+          <latest>$timeframe.latest$</latest>
+        </search>
+      </map>
+    </panel>
+  </row>
+  <row>
+    <panel>
       <chart>
         <title>Intrusion Prevention Event History</title>
         <searchString>sourcetype=deepsecurity-intrusion_prevention | timechart count by act limit=10</searchString>

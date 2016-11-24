@@ -10,5 +10,13 @@ version = 6.1.0
 modtime = 1402067951.555125000
 
 [app/install/install_source_checksum]
-version = 6.5.1
-modtime = 1480006831.146922000
+version = 6.2.0
+modtime = 1417902645.288528400
+
+[views/deepsecurity_firewall_dashboard]
+version = 6.2.0
+modtime = 1425743441.244563400
+
+[views/deepsecurity_ips_dashboard]
+version = 6.2.0
+modtime = 1425743515.674071800
