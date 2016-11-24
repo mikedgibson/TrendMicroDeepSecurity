@@ -1,0 +1,143 @@
+[transforms]
+export = system
+
+[props]
+export = system
+
+[app/ui]
+version = 6.1.0
+modtime = 1399991756.029250000
+
+[app/launcher]
+version = 6.1.0
+modtime = 1399991756.044875000
+
+[app/package/check_for_updates]
+version = 6.1.0
+modtime = 1399991756.044875000
+
+[eventtypes/deepsecurity]
+version = 6.1.0
+modtime = 1400006479.647875000
+
+[transforms/deepsecurity-cefkeys]
+owner = nobody
+
+[views/deepsecurity_loginspection_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183747.671601600
+
+[views/deepsecurity_ips_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183691.686868300
+
+[views/deepsecurity_webreputation_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183529.638956200
+
+[views/deepsecurity_antimalware_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183564.217302500
+
+[views/deepsecurity_firewall_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183638.702154200
+
+[views/deepsecurity_integritymonitoring_dashboard]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183717.968286500
+
+[savedsearches/Deep%20Security%20-%20Anti-Malware%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180733.101964400
+
+[savedsearches/Deep%20Security%20-%20Firewall%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180742.930152300
+
+[savedsearches/Deep%20Security%20-%20Integrity%20Monitoring%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180757.055242700
+
+[savedsearches/Deep%20Security%20-%20Log%20Inspection%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180795.867991100
+
+[savedsearches/Deep%20Security%20-%20Web%20Reputation%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180818.633761800
+
+[savedsearches/Deep%20Security%20-%20System%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180808.586822500
+
+[nav/default]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400183887.500621500
+
+[savedsearches/Deep%20Security%20-%20All%20Security%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180724.055031500
+
+[views/default]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400180902.087420900
+
+[savedsearches/Deep%20Security%20-%20Intrusion%20Prevention%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400181033.890563600
+
+[savedsearches/Deep%20Security%20-%20High%20Severity%20Events]
+access = read : [ * ], write : [ admin ]
+export = none
+owner = nobody
+version = 6.1.0
+modtime = 1400181448.158839900
