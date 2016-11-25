@@ -2,6 +2,7 @@ Version 1.5.3: XXX XX, XXXX
 - Added the ability to modify the host field to represent the Deep Security computer object that generated the event. This is extracted from the dvchost field in the event data.
 - Fixed a user reported error where there was a typo in the props.conf file which would preventing the ICMP transform from operating correctly. Credit to Chris Bell for reporting the error.
 - Made a small modification to the deepsecurity-cefheaders transform to account for any RFC3164 compliant systems that may have added a whitespace to the beginning of the syslog message.
+- Created a field alias for dest from dest_ip as per guidance in CIM.
 
 Version 1.5.2: April 4, 2016
 - Fixed a typo in the transforms.conf for web reputation events. Credit to Chris Bell for reporting the error.
